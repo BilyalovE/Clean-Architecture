@@ -33,6 +33,8 @@
       <ProjectReference Include="..\2 Infrastucture.Interfaces\Email.Interfaces\Email.Interfaces.csproj" />
       <ProjectReference Include="..\2 Infrastucture.Interfaces\WebApp.Interfaces\WebApp.Interfaces.csproj" />
       <ProjectReference Include="..\ApplicationServices.Implementation\ApplicationServices.Implementation.csproj" />
-      <ProjectReference Include="..\UseCases\UseCases.csproj" />
+      <ProjectReference Include="..\Mobile.Controllers\Mobile.Controllers.csproj" />
+      <ProjectReference Include="..\Mobile.UseCases\Mobile.UseCases.csproj" />
+      <ProjectReference Include="..\Web.Controllers\Web.Controllers.csproj" />
     </ItemGroup>
 </Project>

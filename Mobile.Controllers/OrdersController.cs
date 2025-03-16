@@ -30,7 +30,7 @@ public class OrdersController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<int> Create([FromBody] CreateOrderDto dto)
+    public async Task<int> Create([FromBody ] CreateOrderDto dto)
     {
         var id = await _sender.Send(new CreateOrderCommand {Dto = dto});
         return id;
