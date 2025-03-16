@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\1 Entities\DomainServices.Interfaces\DomainServices.Interfaces.csproj" />
+      <ProjectReference Include="..\2 Infrastucture.Interfaces\DataAccess.Interfaces\DataAccess.Interfaces.csproj" />
+      <ProjectReference Include="..\ApplicationServices.Interfaces\ApplicationServices.Interfaces.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="14.0.0" />
+      <PackageReference Include="MediatR" Version="11.1.0" />
+    </ItemGroup>
+
+</Project>

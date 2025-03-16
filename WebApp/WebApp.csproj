@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="HiNetCloud.Microsoft.AspNetCore.Http.Abstractions" Version="24.8.10.9" />
+        <PackageReference Include="MediatR" Version="11.1.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="appsettings.Development.json">
+        <DependentUpon>appsettings.json</DependentUpon>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\1 Entities\DomainServices.Implementation\DomainServices.Implementation.csproj" />
+      <ProjectReference Include="..\1 Entities\DomainServices.Interfaces\DomainServices.Interfaces.csproj" />
+      <ProjectReference Include="..\2 Infrastructure.Implementation\DataAccess\DataAccess.csproj" />
+      <ProjectReference Include="..\2 Infrastructure.Implementation\Email.Implementation\Email.Implementation.csproj" />
+      <ProjectReference Include="..\2 Infrastucture.Interfaces\DataAccess.Interfaces\DataAccess.Interfaces.csproj" />
+      <ProjectReference Include="..\2 Infrastucture.Interfaces\Email.Interfaces\Email.Interfaces.csproj" />
+      <ProjectReference Include="..\2 Infrastucture.Interfaces\WebApp.Interfaces\WebApp.Interfaces.csproj" />
+      <ProjectReference Include="..\ApplicationServices.Implementation\ApplicationServices.Implementation.csproj" />
+      <ProjectReference Include="..\UseCases\UseCases.csproj" />
+    </ItemGroup>
+</Project>
