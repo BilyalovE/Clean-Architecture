@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "1 Entities\Domain\Domain.csproj", "{E841B072-5A74-478C-A5FA-011620106488}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "1 Entities\Entities\Entities.csproj", "{E841B072-5A74-478C-A5FA-011620106488}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServices.Implementation", "1 Entities\DomainServices.Implementation\DomainServices.Implementation.csproj", "{17AB6774-124E-4D57-AECB-801C0D867216}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServices.Interfaces", "1 Entities\DomainServices.Interfaces\DomainServices.Interfaces.csproj", "{7A37FBDB-3B57-4220-A1ED-D85F5F46760D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "2 Infrastructure.Implementation\DataAccess\DataAccess.csproj", "{3B2ECBFB-9E6D-463A-8C0A-A8FE25C9C14A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.PgSql", "2 Infrastructure.Implementation\DataAccess.PgSql\DataAccess.PgSql.csproj", "{3B2ECBFB-9E6D-463A-8C0A-A8FE25C9C14A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.Implementation", "2 Infrastructure.Implementation\Email.Implementation\Email.Implementation.csproj", "{B5649FA1-1628-4916-BC27-A5780C660E67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.MailHandler", "2 Infrastructure.Implementation\Email.MailHandler\Email.MailHandler.csproj", "{B5649FA1-1628-4916-BC27-A5780C660E67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{D704C468-3460-4239-9ABB-8DBCEE1EC6EC}"
 EndProject

@@ -27,8 +27,8 @@
     <ItemGroup>
       <ProjectReference Include="..\1 Entities\DomainServices.Implementation\DomainServices.Implementation.csproj" />
       <ProjectReference Include="..\1 Entities\DomainServices.Interfaces\DomainServices.Interfaces.csproj" />
-      <ProjectReference Include="..\2 Infrastructure.Implementation\DataAccess\DataAccess.csproj" />
-      <ProjectReference Include="..\2 Infrastructure.Implementation\Email.Implementation\Email.Implementation.csproj" />
+      <ProjectReference Include="..\2 Infrastructure.Implementation\DataAccess.PgSql\DataAccess.PgSql.csproj" />
+      <ProjectReference Include="..\2 Infrastructure.Implementation\Email.MailHandler\Email.MailHandler.csproj" />
       <ProjectReference Include="..\2 Infrastucture.Interfaces\DataAccess.Interfaces\DataAccess.Interfaces.csproj" />
       <ProjectReference Include="..\2 Infrastucture.Interfaces\Email.Interfaces\Email.Interfaces.csproj" />
       <ProjectReference Include="..\2 Infrastucture.Interfaces\WebApp.Interfaces\WebApp.Interfaces.csproj" />

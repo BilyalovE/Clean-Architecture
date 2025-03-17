@@ -8,7 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\1 Entities\DomainServices.Interfaces\DomainServices.Interfaces.csproj" />
-      <ProjectReference Include="..\1 Entities\Domain\Domain.csproj" />
+      <ProjectReference Include="..\1 Entities\Entities\Entities.csproj" />
       <ProjectReference Include="..\2 Infrastucture.Interfaces\DataAccess.Interfaces\DataAccess.Interfaces.csproj" />
     </ItemGroup>
 
