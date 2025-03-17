@@ -41,7 +41,7 @@ public class Startup
         services.AddDbContext<IDbContext, AppDbContext>(options =>
             options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
         
-        // Mobile.UseCases
+        // UseCases
         services.AddMediatR(typeof(CreateOrderCommand));
         services.AddScoped<ISecurityService, SecurityService>();
         
