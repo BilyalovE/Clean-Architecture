@@ -36,5 +36,6 @@
       <ProjectReference Include="..\Mobile.Controllers\Mobile.Controllers.csproj" />
       <ProjectReference Include="..\Mobile.UseCases\Mobile.UseCases.csproj" />
       <ProjectReference Include="..\Web.Controllers\Web.Controllers.csproj" />
+      <ProjectReference Include="..\Web.UseCases\Web.UseCases.csproj" />
     </ItemGroup>
 </Project>
